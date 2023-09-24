@@ -1,0 +1,20 @@
+db.Usuarios.insertOne({
+    "Nombre": "Diego Fernando Polo Home",
+    "Email": "pecioso999@gmail.com",
+    "Edad": 30
+
+})
+
+db.Materias.insertMany([
+    {
+        "Asignatura": "Matematicas",
+        "Docente": "Tomas Vanegas Gomez",
+        "Periodo": 3
+    },
+    {
+        "Asignatura": "Programacion",
+        "Docente": "Nate Gentile",
+        "Periodo": 5
+    }
+]
+)
